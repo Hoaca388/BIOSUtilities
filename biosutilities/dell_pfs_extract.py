@@ -24,7 +24,7 @@ from biosutilities.common.paths import (delete_dirs, delete_file, path_files, is
 from biosutilities.common.patterns import PAT_DELL_FTR, PAT_DELL_HDR, PAT_DELL_PKG
 from biosutilities.common.structs import CHAR, ctypes_struct, UINT8, UINT16, UINT32, UINT64
 from biosutilities.common.system import printer
-from biosutilities.common.templates import BIOSUtility
+from biosutilities.common.templates import BIOSUtilities
 from biosutilities.common.texts import file_to_bytes, to_ordinal
 
 from biosutilities.ami_pfat_extract import AmiPfatExtract, IntelBiosGuardHeader
